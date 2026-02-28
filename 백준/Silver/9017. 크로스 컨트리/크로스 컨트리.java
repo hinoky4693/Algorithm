@@ -1,67 +1,76 @@
-import java.util.*;
 import java.io.*;
+import java.util.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-        
-        for(int tc = 1; tc <= T; tc++) {
+
+        while (T-- > 0) {
             int N = Integer.parseInt(br.readLine());
             StringTokenizer st = new StringTokenizer(br.readLine());
-            List<Integer> candidateList = new ArrayList<>();
-            int[] scores = new int[N];
-            int[] teamArr = new int[201];
-            
-            
-            for(int i = 0; i<N; i++){
-                int curr = Integer.parseInt(st.nextToken());
-                scores[i] = curr;
-                teamArr[curr]++;
+
+            int[] order = new int[N];
+            int[] cnt = new int[201];
+
+            for (int i = 0; i < N; i++) {
+                int team = Integer.parseInt(st.nextToken());
+                order[i] = team;
+                cnt[team]++;
             }
-            
-            for(int i = 1; i <= 200; i++){
-                if (teamArr[i] == 6) {
-                    candidateList.add(i);
+
+            // 후보 팀(완주 6명인 팀) 표시
+            boolean[] candidate = new boolean[201];
+            for (int team = 1; team <= 200; team++) {
+                if (cnt[team] == 6) candidate[team] = true; // 문제 조건이 "정확히 6명"이면 ==6
+                // 더 안전하게 하려면: if (cnt[team] >= 6) candidate[team] = true;
+            }
+
+            // 후보 팀 주자들만 대상으로 등수 부여하면서 점수 계산 (O(N))
+            int[] finishCnt = new int[201];   // 후보팀 내에서 몇 번째로 들어왔는지
+            int[] sum4 = new int[201];        // 상위 4명 점수 합
+            int[] fifth = new int[201];       // 5번째 등수(동점 tie-break)
+
+            int rank = 1; // 후보 팀 선수들에게만 매기는 등수
+
+            for (int i = 0; i < N; i++) {
+                int team = order[i];
+                if (!candidate[team]) continue;
+
+                finishCnt[team]++;
+
+                if (finishCnt[team] <= 4) {
+                    sum4[team] += rank;
+                } else if (finishCnt[team] == 5) {
+                    fifth[team] = rank;
                 }
+                rank++;
             }
-            
-            int[][] tempScore = new int[candidateList.size()][2];
-            int[] numberFive = new int[candidateList.size()];
-            int score = 1;
-            for(int i = 0; i < scores.length; i++){
-                for(int j = 0; j < candidateList.size(); j++) {
-                    if(scores[i] == candidateList.get(j)) {
-                        if(tempScore[j][1] < 4) {
-                            tempScore[j][0] += score++;
-                        } else if(tempScore[j][1] == 4) {
-                            numberFive[j] = score++;
-                        } else {
-                            score++;
-                        }
-                        tempScore[j][1]++;
+
+            // 우승 팀 찾기: sum4 최소, 동점이면 fifth 최소
+            int ansTeam = 0;
+            int bestSum = Integer.MAX_VALUE;
+            int bestFifth = Integer.MAX_VALUE;
+
+            for (int team = 1; team <= 200; team++) {
+                if (!candidate[team]) continue;
+
+                if (sum4[team] < bestSum) {
+                    bestSum = sum4[team];
+                    bestFifth = fifth[team];
+                    ansTeam = team;
+                } else if (sum4[team] == bestSum) {
+                    if (fifth[team] < bestFifth) {
+                        bestFifth = fifth[team];
+                        ansTeam = team;
                     }
                 }
             }
-            
-            int min = Integer.MAX_VALUE;
-            int minFive = Integer.MAX_VALUE;
-            int answer = 0;
-            for(int i = 0; i < candidateList.size(); i++) {
-                if(tempScore[i][0] < min) {
-                    min = tempScore[i][0];
-                    minFive = numberFive[i];
-                    answer = candidateList.get(i);
-                } else if(tempScore[i][0] == min) {
-                    if(numberFive[i] < minFive) {
-                        answer = candidateList.get(i);
-                        minFive = numberFive[i];
-                    }
-                }
-            }
-            sb.append(answer).append("\n");
+
+            sb.append(ansTeam).append('\n');
         }
-        System.out.println(sb.toString());
+
+        System.out.print(sb.toString());
     }
 }
