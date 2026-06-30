@@ -1,10 +1,10 @@
 # [level 3] 자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기 - 157340 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/157340) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/157340?language=mysql) 
 
 ### 성능 요약
 
-메모리: 0.0 MB, 시간: 0.00 ms
+메모리: undefined, 시간: 
 
 ### 구분
 
@@ -12,11 +12,11 @@
 
 ### 채점결과
 
-Empty
+합계: 100.0 / 100.0
 
 ### 제출 일자
 
-2024년 11월 28일 11:02:32
+2026년 06월 30일 13:48:56
 
 ### 문제 설명
 
