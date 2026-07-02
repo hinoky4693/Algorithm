@@ -1,33 +1,51 @@
 import java.util.*;
 
 class Solution {
+    
+    int size = 0;
     public int solution(String s) {
         int answer = 0;
-        s += s;
         
-        Stack <Character> stack = new Stack<>();
-        for(int j=0;j<s.length()/2;j++){
-            boolean valid = true;
-            for(int i=j;i<s.length()/2+j;i++){
-                if(s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
-                    stack.add(s.charAt(i));
-                } else {
-                    if (stack.isEmpty()){
-                        valid = false;
-                        break;
-                    }
-                    char prev = stack.pop();
-                    if (s.charAt(i) - prev > 2) {
-                        valid = false;
-                        break; 
-                    }
-                }
-                
-            }
-            if (valid && stack.isEmpty()) answer++;
+        Queue<Character> q = new LinkedList<>();
+        
+        char[] arr = s.toCharArray();
+        size = arr.length;
+        
+        for(char val : arr) {
+            q.add(val);
         }
-            
+        
+        for(int i=0; i<size; i++) {
+            String temp = "";
+            for(char c : q) {
+                temp += c;
+            }
+            if(check(temp)) answer++;
+            q.add(q.poll());
+        }        
+        
         return answer;
     }
     
+    public boolean check(String s) {
+        Stack<Character> stack = new Stack<>();
+        
+        for(int i=0; i<size; i++) {
+            if(s.charAt(i) == '[' || s.charAt(i) == '{' || s.charAt(i) == '(') {
+                stack.add(s.charAt(i));
+            } else if(s.charAt(i) == ']') {
+                if(!stack.isEmpty() && stack.peek() == '[') stack.pop();
+                else return false;
+            } else if(s.charAt(i) == '}') {
+                if(!stack.isEmpty() && stack.peek() == '{') stack.pop();
+                else return false;
+            } else if(s.charAt(i) == ')') {
+                if(!stack.isEmpty() && stack.peek() == '(') stack.pop();
+                else return false;
+            }
+        }
+        
+        if(!stack.isEmpty()) return false;
+        else return true;
+    }
 }
