@@ -1,7 +1,8 @@
-SELECT to_char(o.sales_date, 'yyyy') as year, to_number(to_char(o.sales_date, 'mm')) as month, u.gender, count(distinct o.user_id) as users
-from user_info u, online_sale o
-where u.user_id = o.user_id
-and u.gender in (0,1)
-group by to_char(o.sales_date, 'yyyy'), to_number(to_char(o.sales_date, 'mm')), u.gender
-order by year, month, gender
+SELECT YEAR(SALES_DATE) AS YEAR, MONTH(SALES_DATE) AS MONTH, GENDER AS GENDER, COUNT(DISTINCT OS.USER_ID) AS USERS
+FROM ONLINE_SALE OS
+JOIN USER_INFO UI
+ON OS.USER_ID = UI.USER_ID
+WHERE GENDER IS NOT NULL
+GROUP BY YEAR, MONTH, GENDER
+ORDER BY YEAR, MONTH, GENDER
 ;
