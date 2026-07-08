@@ -1,16 +1,26 @@
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
-    public boolean solution(String[] phoneBook) {
-        // 1. phoneBook을 sorting한다.
-        Arrays.sort(phoneBook);
-
-        // 2. 1중 Loop을 돌며 앞 번호가 뒷 번호의 접두어인지 확인한다.
-        for (int i = 0; i < phoneBook.length - 1; i++)
-            if (phoneBook[i + 1].startsWith(phoneBook[i]))
-                return false;
+    public boolean solution(String[] phone_book) {
         
-        // 3. 여기까지 오면 접두어가 없다는 것이다.
+        Set<String> set = new HashSet<>();
+        
+        // 모든 전화번호를 HashSet에 저장
+        for (String phone : phone_book) {
+            set.add(phone);
+        }
+        
+        // 각 전화번호의 접두어가 HashSet에 있는지 확인
+        for (String phone : phone_book) {
+            for (int i = 1; i < phone.length(); i++) {
+                String prefix = phone.substring(0, i);
+                
+                if (set.contains(prefix)) {
+                    return false;
+                }
+            }
+        }
+        
         return true;
     }
 }
