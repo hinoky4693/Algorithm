@@ -15,34 +15,38 @@ class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode dummy = new ListNode(0);
-        dummy.next = new ListNode(0);
-        ListNode curr = dummy.next;
+        ListNode curr = dummy;
 
         int carry = 0;
-        int sum = 0;
-        while(true) {
 
-            sum = l1.val + l2.val + carry;
+        while (l1 != null || l2 != null) {
+
+            int num1 = l1 != null ? l1.val : 0;
+            int num2 = l2 != null ? l2.val : 0;
+
+            int sum = num1 + num2 + carry;
+
             carry = sum / 10;
-            sum = sum % 10;
+            int value = sum % 10;
 
-            curr.val = sum;
-
-            if(l1.next != null) {
-                l1 = l1.next;
-            } else l1.val = 0;
-
-            if(l2.next != null) {
-                l2 = l2.next;
-            } else l2.val = 0;
-            
-            if(l1.next == null && l2.next == null && l1.val == 0 && l2.val == 0) break;
-            
-            curr.next = new ListNode(0);
+            // 결과 리스트의 꼬리에 새 노드 추가
+            curr.next = new ListNode(value);
             curr = curr.next;
+
+            // 입력 리스트의 다음 노드로 이동
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+
+            if (l2 != null) {
+                l2 = l2.next;
+            }
         }
 
-        if (carry == 1) curr.next = new ListNode(1);
+        // 마지막 올림이 남아 있는 경우
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
+        }
 
         return dummy.next;
     }
