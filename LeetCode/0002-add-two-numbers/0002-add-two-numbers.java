@@ -14,62 +14,36 @@ import java.util.*;
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-        ListNode curr = new ListNode(0);
-        StringBuilder sb = new StringBuilder();
+        ListNode dummy = new ListNode(0);
+        dummy.next = new ListNode(0);
+        ListNode curr = dummy.next;
 
-        boolean overTen = false;
-        int tmp = 0;
+        int carry = 0;
+        int sum = 0;
         while(true) {
 
-            if(l1 == null) tmp = l2.val;
-            else if(l2 == null) tmp = l1.val;
-            else tmp = l1.val + l2.val;
+            sum = l1.val + l2.val + carry;
+            carry = sum / 10;
+            sum = sum % 10;
 
-            if(overTen) {
-                tmp++;
-                if(tmp >= 10) tmp -= 10;
-                else overTen = false;
+            curr.val = sum;
 
-                curr.val = tmp;
-                sb.append(tmp);
-            } else {
-                if(tmp >= 10) {
-                    tmp -= 10;
-                    overTen = true;
-                }
-                
-                curr.val = tmp;
-                sb.append(tmp);
-            }
+            if(l1.next != null) {
+                l1 = l1.next;
+            } else l1.val = 0;
 
-            if(l1 != null) l1 = l1.next;
-            if(l2 != null) l2 = l2.next;
-
-
-            if(l1 == null && l2 == null) {
-                if(overTen) {
-                    ListNode abc = new ListNode(1, curr);
-                    curr = abc;
-                    sb.append(1);
-                }
-                break;
-            }
+            if(l2.next != null) {
+                l2 = l2.next;
+            } else l2.val = 0;
             
-            ListNode next = new ListNode(0, curr);
-
+            if(l1.next == null && l2.next == null && l1.val == 0 && l2.val == 0) break;
             
-            curr = next;
+            curr.next = new ListNode(0);
+            curr = curr.next;
         }
 
-        ListNode answer = new ListNode(sb.charAt(sb.length() - 1) - '0');
+        if (carry == 1) curr.next = new ListNode(1);
 
-        for(int i=sb.length() - 2; i >= 0; i--) {
-            ListNode aaa = new ListNode(0, answer);
-            answer = aaa;
-            answer.val = sb.charAt(i) - '0';
-        }
-
-
-        return answer;
+        return dummy.next;
     }
 }
