@@ -7,10 +7,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -20,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/hinoky4693/Algorithm/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Greedy
@@ -30,6 +33,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
 |  |
