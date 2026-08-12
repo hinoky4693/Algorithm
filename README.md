@@ -9,11 +9,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -57,4 +59,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
+## Sliding Window
+|  |
+| ------- |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 <!---LeetCode Topics End-->
