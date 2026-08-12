@@ -47,4 +47,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/hinoky4693/Algorithm/tree/master/0002-add-two-numbers) |
+## Database
+|  |
+| ------- |
+| [0184-department-highest-salary](https://github.com/hinoky4693/Algorithm/tree/master/0184-department-highest-salary) |
 <!---LeetCode Topics End-->
