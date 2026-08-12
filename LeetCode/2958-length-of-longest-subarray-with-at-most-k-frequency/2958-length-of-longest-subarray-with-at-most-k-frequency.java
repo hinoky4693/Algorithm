@@ -12,16 +12,9 @@ class Solution {
         while(right < nums.length) {
             map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 
-            if(map.get(nums[right]) > k) {
-                while(left <= right) {
+            while(map.get(nums[right]) > k) {
                     map.put(nums[left], map.get(nums[left]) - 1);
-                    if(map.get(nums[right]) <= k) {
-                        left++;
-                        break;
-                    }
-
                     left++;
-                }
             }
 
             answer = Math.max(right - left + 1, answer);
