@@ -11,6 +11,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Hash Table
 |  |
 | ------- |
@@ -19,6 +20,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/hinoky4693/Algorithm/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Math
 |  |
 | ------- |
