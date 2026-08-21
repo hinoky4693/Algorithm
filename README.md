@@ -64,6 +64,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0184-department-highest-salary](https://github.com/hinoky4693/Algorithm/tree/master/0184-department-highest-salary) |
 | [0550-game-play-analysis-iv](https://github.com/hinoky4693/Algorithm/tree/master/0550-game-play-analysis-iv) |
 | [0602-friend-requests-ii-who-has-the-most-friends](https://github.com/hinoky4693/Algorithm/tree/master/0602-friend-requests-ii-who-has-the-most-friends) |
+| [1070-product-sales-analysis-iii](https://github.com/hinoky4693/Algorithm/tree/master/1070-product-sales-analysis-iii) |
 ## Quicksort
 |  |
 | ------- |
