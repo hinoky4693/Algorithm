@@ -11,6 +11,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
+| [0238-product-of-array-except-self](https://github.com/hinoky4693/Algorithm/tree/master/0238-product-of-array-except-self) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Hash Table
@@ -94,4 +95,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/hinoky4693/Algorithm/tree/master/0011-container-with-most-water) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/hinoky4693/Algorithm/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
