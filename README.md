@@ -15,6 +15,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0347-top-k-frequent-elements](https://github.com/hinoky4693/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/hinoky4693/Algorithm/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Hash Table
 |  |
@@ -36,6 +37,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0013-roman-to-integer](https://github.com/hinoky4693/Algorithm/tree/master/0013-roman-to-integer) |
 | [1927-sum-game](https://github.com/hinoky4693/Algorithm/tree/master/1927-sum-game) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/hinoky4693/Algorithm/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 ## String
 |  |
 | ------- |
