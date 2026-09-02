@@ -10,7 +10,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0011-container-with-most-water](https://github.com/hinoky4693/Algorithm/tree/master/0011-container-with-most-water) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
-| [0128-longest-consecutive-sequence](https://github.com/hinoky4693/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/hinoky4693/Algorithm/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/hinoky4693/Algorithm/tree/master/0347-top-k-frequent-elements) |
@@ -24,7 +23,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/hinoky4693/Algorithm/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
-| [0128-longest-consecutive-sequence](https://github.com/hinoky4693/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/hinoky4693/Algorithm/tree/master/0347-top-k-frequent-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/hinoky4693/Algorithm/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -111,7 +109,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Union-Find
 |  |
 | ------- |
-| [0128-longest-consecutive-sequence](https://github.com/hinoky4693/Algorithm/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
 ## Matrix
 |  |
