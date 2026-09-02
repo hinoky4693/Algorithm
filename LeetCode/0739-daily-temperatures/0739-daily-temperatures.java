@@ -2,11 +2,11 @@ import java.util.*;
 
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        Stack<int[]> stack = new Stack<>();
+        Deque<int[]> stack = new ArrayDeque<>();
 
         int[] answer = new int[temperatures.length];
 
-        stack.add(new int[] {temperatures[0], 0});
+        stack.push(new int[] {temperatures[0], 0});
 
         for(int i=1; i<temperatures.length; i++) {
             int curr = stack.peek()[0];
@@ -17,7 +17,7 @@ class Solution {
                 answer[temp[1]] = i - temp[1];
             }
 
-            stack.add(new int[] {next, i});
+            stack.push(new int[] {next, i});
         }
 
         while(!stack.isEmpty()) {            
