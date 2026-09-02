@@ -13,6 +13,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/hinoky4693/Algorithm/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/hinoky4693/Algorithm/tree/master/0347-top-k-frequent-elements) |
+| [0739-daily-temperatures](https://github.com/hinoky4693/Algorithm/tree/master/0739-daily-temperatures) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/hinoky4693/Algorithm/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -146,4 +147,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/hinoky4693/Algorithm/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+## Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/hinoky4693/Algorithm/tree/master/0739-daily-temperatures) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0739-daily-temperatures](https://github.com/hinoky4693/Algorithm/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
