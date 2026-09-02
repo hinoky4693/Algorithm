@@ -18,6 +18,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [3471-find-the-largest-almost-missing-integer](https://github.com/hinoky4693/Algorithm/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/hinoky4693/Algorithm/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3875-construct-uniform-parity-array-i](https://github.com/hinoky4693/Algorithm/tree/master/3875-construct-uniform-parity-array-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -40,6 +41,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1927-sum-game](https://github.com/hinoky4693/Algorithm/tree/master/1927-sum-game) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/hinoky4693/Algorithm/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3875-construct-uniform-parity-array-i](https://github.com/hinoky4693/Algorithm/tree/master/3875-construct-uniform-parity-array-i) |
 ## String
 |  |
 | ------- |
