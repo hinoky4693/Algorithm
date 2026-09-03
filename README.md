@@ -89,6 +89,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Database
 |  |
 | ------- |
+| [0180-consecutive-numbers](https://github.com/hinoky4693/Algorithm/tree/master/0180-consecutive-numbers) |
 | [0184-department-highest-salary](https://github.com/hinoky4693/Algorithm/tree/master/0184-department-highest-salary) |
 | [0550-game-play-analysis-iv](https://github.com/hinoky4693/Algorithm/tree/master/0550-game-play-analysis-iv) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/hinoky4693/Algorithm/tree/master/0570-managers-with-at-least-5-direct-reports) |
