@@ -8,6 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/hinoky4693/Algorithm/tree/master/0011-container-with-most-water) |
+| [0046-permutations](https://github.com/hinoky4693/Algorithm/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
@@ -157,4 +158,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/hinoky4693/Algorithm/tree/master/0739-daily-temperatures) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/hinoky4693/Algorithm/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
