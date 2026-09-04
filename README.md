@@ -22,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [3718-smallest-missing-multiple-of-k](https://github.com/hinoky4693/Algorithm/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3875-construct-uniform-parity-array-i](https://github.com/hinoky4693/Algorithm/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/hinoky4693/Algorithm/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3903-smallest-stable-index-i](https://github.com/hinoky4693/Algorithm/tree/master/3903-smallest-stable-index-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -131,6 +132,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/hinoky4693/Algorithm/tree/master/0238-product-of-array-except-self) |
+| [3903-smallest-stable-index-i](https://github.com/hinoky4693/Algorithm/tree/master/3903-smallest-stable-index-i) |
 ## Divide and Conquer
 |  |
 | ------- |
