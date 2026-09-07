@@ -8,6 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0001-two-sum](https://github.com/hinoky4693/Algorithm/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/hinoky4693/Algorithm/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/hinoky4693/Algorithm/tree/master/0014-longest-common-prefix) |
 | [0046-permutations](https://github.com/hinoky4693/Algorithm/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hinoky4693/Algorithm/tree/master/0056-merge-intervals) |
@@ -51,6 +52,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hinoky4693/Algorithm/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/hinoky4693/Algorithm/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [1927-sum-game](https://github.com/hinoky4693/Algorithm/tree/master/1927-sum-game) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/hinoky4693/Algorithm/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -172,4 +174,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0046-permutations](https://github.com/hinoky4693/Algorithm/tree/master/0046-permutations) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/hinoky4693/Algorithm/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
