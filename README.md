@@ -46,6 +46,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1927-sum-game](https://github.com/hinoky4693/Algorithm/tree/master/1927-sum-game) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/hinoky4693/Algorithm/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/hinoky4693/Algorithm/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3870-count-commas-in-range](https://github.com/hinoky4693/Algorithm/tree/master/3870-count-commas-in-range) |
 | [3875-construct-uniform-parity-array-i](https://github.com/hinoky4693/Algorithm/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/hinoky4693/Algorithm/tree/master/3876-construct-uniform-parity-array-ii) |
 ## String
