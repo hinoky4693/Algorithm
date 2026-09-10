@@ -115,6 +115,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/hinoky4693/Algorithm/tree/master/0200-number-of-islands) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/hinoky4693/Algorithm/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -179,4 +180,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/hinoky4693/Algorithm/tree/master/0014-longest-common-prefix) |
+## Tree
+|  |
+| ------- |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/hinoky4693/Algorithm/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+## Binary Tree
+|  |
+| ------- |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/hinoky4693/Algorithm/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 <!---LeetCode Topics End-->
