@@ -55,6 +55,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0013-roman-to-integer](https://github.com/hinoky4693/Algorithm/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/hinoky4693/Algorithm/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/hinoky4693/Algorithm/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/hinoky4693/Algorithm/tree/master/0049-group-anagrams) |
 | [1927-sum-game](https://github.com/hinoky4693/Algorithm/tree/master/1927-sum-game) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/hinoky4693/Algorithm/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -170,6 +171,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/hinoky4693/Algorithm/tree/master/0020-valid-parentheses) |
 | [0739-daily-temperatures](https://github.com/hinoky4693/Algorithm/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
@@ -195,4 +197,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/hinoky4693/Algorithm/tree/master/0836-rectangle-overlap) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/hinoky4693/Algorithm/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
