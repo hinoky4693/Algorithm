@@ -4,34 +4,29 @@ class Solution {
     public int solution(int[] priorities, int location) {
         int answer = 0;
         
+        Queue<int[]> q = new LinkedList<>();
         PriorityQueue<Integer> pq = new PriorityQueue<>((o1, o2) -> o2 - o1);
         
-        Queue<int[]> q = new LinkedList<>();
-        
-        for(int priority : priorities) {
-            pq.add(priority);
-        }
-        
         for(int i=0; i<priorities.length; i++) {
-            if(i == location) q.add(new int[] {priorities[i], 1});
-            else q.add(new int[] {priorities[i], 0});
+            q.offer(new int[] {priorities[i], i});
+            pq.offer(priorities[i]);
         }
         
-        
+        int order = 0;
         while(!q.isEmpty()) {
-            int max = pq.poll();
             int[] curr = q.poll();
             
-            if(curr[0] < max) {
-                pq.add(max);
+            if (curr[0] == pq.peek()) {
+                order++;
+                pq.poll();
+                if(curr[1] == location) return order;
+                
+            } else {
                 q.add(curr);
             }
-            else {
-                answer++;
-                if(curr[1] == 1) break;
-            }
         }
+        
+        return -1;
 
-        return answer;
     }
 }
