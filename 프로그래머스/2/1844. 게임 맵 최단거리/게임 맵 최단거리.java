@@ -3,53 +3,56 @@ import java.util.*;
 class Solution {
     
     int[] dr = {1, 0, -1, 0};
-    int[] dc = {0, -1, 0, 1};
-    
-    int mapN, mapM;
-    
+    int[] dc = {0, 1, 0, -1};
+    int n;
+    int m;
+    int[][] visited;
     int[][] maps;
-    boolean[][] visited;
+    int answer;
+    
     
     public int solution(int[][] maps) {
         
-        this.maps = maps;
+        n = maps.length;
+        m = maps[0].length;
+        visited = new int[n][m];
         
-        mapN = maps.length;
-        mapM = maps[0].length;
+        for(int i = 0; i < n; i++) {
+            Arrays.fill(visited[i], -1);
+        }
         
-        visited = new boolean[mapN][mapM];
+        this.maps = maps;        
+        bfs(0, 0);
         
-        return bfs();
+        
+        return visited[n-1][m-1];
     }
     
-    public int bfs() {
-        
+    public void bfs(int r, int c) {
         Queue<int[]> q = new LinkedList<>();
         
-        q.add(new int[] {0, 0, 1});
-        visited[0][0] = true;
+        q.add(new int[] {r, c});
+        visited[r][c] = 1;
+        
         
         while(!q.isEmpty()) {
-            int[] curr = q.poll();
+            int size = q.size();
             
-            if(curr[0] == mapN - 1 && curr[1] == mapM - 1) return curr[2];
-            
-            for(int d = 0; d < 4; d++) {
-                int nr = curr[0] + dr[d];
-                int nc = curr[1] + dc[d];
-                
-                if(nr >= mapN || nc >= mapM || nr < 0 || nc < 0) continue;
-                if(visited[nr][nc]) continue;
-                if(maps[nr][nc] == 0) continue;
-                
-                q.add(new int[] {nr, nc, curr[2] + 1});
-                visited[nr][nc] = true;
+            for(int i=0; i<size; i++) {
+                int[] curr = q.poll();
+                for(int d = 0; d < 4; d++) {
+                    int nr = curr[0] + dr[d];
+                    int nc = curr[1] + dc[d];
+                    
+                    if(nr >= n || nc >=  m || nr < 0 || nc < 0) continue;
+                    if(visited[nr][nc] != -1) continue;
+                    if(maps[nr][nc] == 0) continue;
+                    
+                    q.add(new int[] {nr, nc});
+                    visited[nr][nc] = visited[curr[0]][curr[1]] + 1;
+                }
             }
         }
         
-        
-        return -1;
     }
-    
-    
 }
