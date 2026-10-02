@@ -1,6 +1,5 @@
-SELECT outs.animal_id, outs.name
-from animal_ins ins, animal_outs outs
-where ins.animal_id(+) = outs.animal_id
-and ins.animal_id is null
-order by outs.animal_id
+SELECT OUTS.ANIMAL_ID AS ANIMAL_ID, OUTS.NAME AS NAME
+FROM ANIMAL_INS INS
+RIGHT JOIN ANIMAL_OUTS OUTS ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
+WHERE INS.ANIMAL_ID IS NULL
 ;
