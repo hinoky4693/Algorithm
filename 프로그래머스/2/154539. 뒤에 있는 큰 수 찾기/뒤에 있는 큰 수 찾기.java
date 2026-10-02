@@ -6,8 +6,8 @@ class Solution {
         
         Deque<Integer> stack = new ArrayDeque<>();
         
-        for(int i = numbers.length -1; i >= 0; i--) {
-            
+        for(int i = numbers.length - 1; i >= 0; i--) {            
+
             while(!stack.isEmpty() && stack.peek() <= numbers[i]) {
                 stack.pop();
             }
@@ -20,7 +20,6 @@ class Solution {
             
             stack.push(numbers[i]);
         }
-        
         
         return answer;
     }
